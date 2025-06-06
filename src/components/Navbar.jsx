@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { FaGithub, FaLinkedin, FaBars, FaTimes } from 'react-icons/fa'
 import { motion, AnimatePresence } from 'framer-motion'
-import logo from '../assets/sammyLogo.png'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -13,7 +12,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="flex items-center">
         <a href="/" aria-label="Home">
-          <img src={logo} alt="logo" className="mx-2" width={100} height={33} />
+          <img src={'/sammylogo.png'} alt="logo" className="mx-2" width={100} height={33} />
         </a>
       </div>
 
