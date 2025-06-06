@@ -10,7 +10,7 @@ const Contact = () => {
           transition={{duration:0.5, delay:1.5}}
           className="my-10 text-center text-4xl "
         >Get In Touch</motion.h2>
-        <div className="text-center tracking-tighter">
+        <section id="contact" className="text-center tracking-tighter">
             <motion.address 
               whileInView={{opacity:1, x:0}}
               initial={{opacity:0, x:-100}}
@@ -27,7 +27,7 @@ const Contact = () => {
                 {CONTACT.email}
             </a>
             
-        </div>
+        </section>
     </div>
   )
 }
